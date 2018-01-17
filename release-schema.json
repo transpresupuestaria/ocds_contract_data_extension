@@ -1,0 +1,31 @@
+{
+  "definitions": {
+    "Contracts": {
+      "properties": {
+        "contractDetails": {
+          "multiyear": "Temporality of the commitment (annual or pluriannual). Indicate if the contract covers more than one budget cycle.",
+          "numberOfMonths": "Indicates the number of months and days covered by the contract if it is multi-year.",
+          "contractType": "Name of the type of contract to be concluded.",
+          "priceScheme": "Description of the payment conditions under which contracts may be agreed.",
+          "minValue": {
+            "amount": "Numerical number for the minimum amount established in the contract.",
+            "currency": "Acronym of the type of currency in which the minimum value is expressed."
+          },
+          "maxValue": {
+            "amount": "Numerical number for the maximum amount established in the contract.",
+            "currency": "Acronym of the type of currency in which the maximum value is expressed."
+          },
+          "originalCurrencyValue": {
+            "amount": "Numerical code for the total amount of the contract in the type of currency with which you are subscribed.",
+            "currency": "Acronym of the type of currency with which the contract is signed.",
+            "exchangeRate": "Exchange rate, if foreign currency, which will be taken for conversion to national currency."
+          },
+          "fiscalYearValue": {
+            "amount": "Numerical figure for the amount to be disbursed in the fiscal year.",
+            "currency": "Acronym of the type of currency in which the amount to be expended in the fiscal year is expressed."
+          }
+        }
+      }
+    }
+  }
+}
