@@ -1,1 +1,11 @@
-{"name":"contract_data","description":"Details of the contract"}
+{
+  "name": {
+    "en": "SHCP Mexico - Contract Details"
+  },
+  "description": {
+    "en": "This OCDS extension adds an object to the contract section that provides additional contract information required by Secretaría de Hacienda y Crédito Público | SHCP (Mexico)."
+  },
+  "documentationUrl": {
+    "en": "https://github.com/transpresupuestaria/ocds_contract_data_extension"
+  }
+}
