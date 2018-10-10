@@ -16,17 +16,23 @@
                         "fiscalYearValue": {
                             "$ref": "#/definitions/Value",
                             "description": "hen the term of a contract covers more than one cycle, the multi-year amount reflects the amount of money allocated per cycle.",
-                            "title": "Fiscal year value"
+                            "title": "Fiscal year value.",
+                            "amount": "Numerical value of the amount for specific fiscal year.",
+                            "currency": "Acronym of the type of currency with which the contract is signed. The currency should always be specified using the uppercase 3-letter currency code from ISO4217."
                         },
                         "maxValue": {
                             "$ref": "#/definitions/Value",
                             "description": "Maximum amount to be paid established in the contract.",
-                            "title": "Maximum value"
+                            "title": "Maximum value",
+                            "amount": "Numerical value of the maximun amount established in the contract.",
+                            "currency": "Acronym of the type of currency with which the contract is signed. The currency should always be specified using the uppercase 3-letter currency code from ISO4217."
                         },
                         "minValue": {
                             "$ref": "#/definitions/Value",
                             "description": "Minimum amount to be paid established in the contract.",
-                            "title": "Minimum value"
+                            "title": "Minimum value",
+                            "amount": "Numerical value of the minimum amount established in the contract.",
+                            "currency": "Acronym of the type of currency with which the contract is signed. The currency should always be specified using the uppercase 3-letter currency code from ISO4217."
                         },
                         "multiyear": {
                             "description": "Temporality of the commitment (annual or pluriannual). Indicate if the contract covers more than one budget cycle.",
