@@ -1,6 +1,6 @@
 {
-    "definitions": {
-        "Contract": {
+	"definitions": {
+         "Contract": {
             "properties": {
                 "contractDetails": {
 			"title": "Contract details",
@@ -140,9 +140,9 @@
                                 	"string",
                                 	"null"
                             		]
-             	       		} 
 				}
-            		}
-        	 }
-    		}
+		}
+	    }
+	 }
+	}
 }
