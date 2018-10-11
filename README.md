@@ -39,7 +39,7 @@ Additional to these fields, `contractDetails` also contains the following four o
 "contracts": [{
 	"contractDetails": {
 		"multiyear": false,
-		"numberOfMonths": "0"
+		"numberOfMonths": "0",
 		"contractType": "Cerrado",
 		"priceScheme": "Variables",
 		"minValue": {
@@ -55,7 +55,7 @@ Additional to these fields, `contractDetails` also contains the following four o
 			"currency": "MXN",
 			"exchangeRate": "1"
 		},
-		"fiscalYearValue"{
+		"fiscalYearValue": {
 			"amount": 0.0,
 			"currency": "MXN"
 		}
