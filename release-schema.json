@@ -17,50 +17,51 @@
                             "$ref": "#/definitions/Value",
                             "description": "When the term of a contract covers more than one cycle, the multi-year amount reflects the amount of money allocated per cycle.",
                             "title": "Fiscal year value",
-							"properties": {
-								"amount":{
-									"title": "Amount for the fiscal year.",
-									"description": " Numerical figure for the amount to be disbursed in the fiscal year.",
-									"type": [
-										"number"]
-									},
-								"currency": {
-									"title": "Currency",
-									"description": "Acronym of the type of currency with which the contract is signed. The currency should always be specified using the uppercase 3-letter currency code from ISO4217.",
-									"type": [
-										"number",
-										"null"
-										]
-									}
-								}	
+			    "properties": {
+				"amount":{
+					"title": "Amount for the fiscal year.",
+					"description": " Numerical figure for the amount to be disbursed in the fiscal year.",
+					"type": [
+						"number"
+						]
+					},
+				"currency": {
+					"title": "Currency",
+					"description": "Acronym of the type of currency with which the contract is signed. The currency should always be specified using the uppercase 3-letter currency code from ISO4217.",
+					"type": [
+						"number",
+						"null"
+						]
+					}
+				}	
                         },
                         "maxValue": {
                             "$ref": "#/definitions/Value",
                             "description": "Maximum amount to be paid established in the contract.",
-                            "title": "Maximum value"
-							"properties":{
-								"amount":{
-									"title": "Amount of the maximum value.",
-									"description": " Numerical value of the maximum amount established in the contract.",
-									"type": [
-										"number",
-										"null"
-										]
-									},
-								"currency": {
-									"title": "Currency",
-									"description": "Acronym of the type of currency with which the contract is signed. The currency should always be specified using the uppercase 3-letter currency code from ISO4217.",
-									"type": [
-										"number",
-										"null"
-										]
-									}
-								}	
+                            "title": "Maximum value",
+			    "properties":{
+				"amount":{
+					"title": "Amount of the maximum value.",
+					"description": " Numerical value of the maximum amount established in the contract.",
+					"type": [
+						"number",
+						"null"
+						]
+					},
+				"currency": {
+					"title": "Currency",
+					"description": "Acronym of the type of currency with which the contract is signed. The currency should always be specified using the uppercase 3-letter currency code from ISO4217.",
+					"type": [
+						"number",
+						"null"
+						]
+					}
+				}	
                         },
                         "minValue": {
                             "$ref": "#/definitions/Value",
                             "description": "Minimum amount to be paid established in the contract.",
-                            "title": "Minimum value"
+                            "title": "Minimum value",
 							"properties": {
 								"amount":{
 									"title": "Amount of the minimum value.",
