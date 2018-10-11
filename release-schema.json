@@ -117,34 +117,32 @@
 						}
 					}
 				},
-                        	"multiyear": {
-					"title": "Multi-year",
-                            		"description": "Temporality of the commitment (annual or pluriannual). Indicate if the contract covers more than one budget cycle.",
-                            		"type": [
-                                		"boolean",
-                                		"null"
-                            			]
-                       			},
-                        	"numberOfMonths": {
-					"title": "Number of months",
-                            		"description": "Indicates the number of months and days covered by the contract if it is multi-year.",
-                           		"type": [
-                                		"null",
-                               			"number"
-                            			]
-                        		},
-                        	"priceScheme": {
-					"title": "Price scheme",
-                            		"description": "Description of the payment conditions under which contracts may be agreed.",
-                            		"type": [
-                                		"string",
-                                		"null"
-                            			]
-                    			},
-                    
-                   
-                }
-            }
-        }
-    }
+                        "multiyear": {
+				"title": "Multi-year",
+                            	"description": "Temporality of the commitment (annual or pluriannual). Indicate if the contract covers more than one budget cycle.",
+                            	"type": [
+                                	"boolean",
+                                	"null"
+                            		]
+                       		},
+                        "numberOfMonths": {
+				"title": "Number of months",
+                            	"description": "Indicates the number of months and days covered by the contract if it is multi-year.",
+                           	"type": [
+                                	"null",
+                               		"number"
+                            		]
+                        	},
+                        "priceScheme": {
+				"title": "Price scheme",
+                            	"description": "Description of the payment conditions under which contracts may be agreed.",
+                            	"type": [
+                                	"string",
+                                	"null"
+                            		]
+             	       		}, 
+				}
+            		}
+        	 }
+    		}
 }
