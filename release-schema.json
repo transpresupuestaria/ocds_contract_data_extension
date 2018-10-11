@@ -17,7 +17,7 @@
                             "$ref": "#/definitions/Value",
                             "description": "When the term of a contract covers more than one cycle, the multi-year amount reflects the amount of money allocated per cycle.",
                             "title": "Fiscal year value",
-							"properties":
+							"properties": {
 								"amount":{
 									"title": "Amount for the fiscal year.",
 									"description": " Numerical figure for the amount to be disbursed in the fiscal year.",
@@ -31,13 +31,14 @@
 										"number",
 										"null"
 										]
-									}	
+									}
+								}	
                         },
                         "maxValue": {
                             "$ref": "#/definitions/Value",
                             "description": "Maximum amount to be paid established in the contract.",
                             "title": "Maximum value"
-							"properties":
+							"properties":{
 								"amount":{
 									"title": "Amount of the maximum value.",
 									"description": " Numerical value of the maximum amount established in the contract.",
@@ -53,13 +54,14 @@
 										"number",
 										"null"
 										]
-									}	
+									}
+								}	
                         },
                         "minValue": {
                             "$ref": "#/definitions/Value",
                             "description": "Minimum amount to be paid established in the contract.",
                             "title": "Minimum value"
-							"properties":
+							"properties": {
 								"amount":{
 									"title": "Amount of the minimum value.",
 									"description": " Numerical value of the minimum amount established in the contract.",
@@ -76,6 +78,7 @@
 										"null"
 										]
 									}
+								}	
                         },
                         "multiyear": {
                             "description": "Temporality of the commitment (annual or pluriannual). Indicate if the contract covers more than one budget cycle.",
