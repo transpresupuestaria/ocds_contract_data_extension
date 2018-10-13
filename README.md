@@ -36,29 +36,35 @@ Additional to these fields, `contractDetails` also contains the following four o
 ## Example
 
 ```json
-"contracts": [{
+"Contract": {
+[
+	"valueWithTax": {
+		"amount": 0.0,
+		"currency": "MXN",
+	},
 	"contractDetails": {
-		"multiyear": false,
-		"numberOfMonths": "0",
 		"contractType": "Cerrado",
-		"priceScheme": "Variables",
-		"minValue": {
-			"amount": 0.0,
-			"currency": "MXN"
+		"fiscalYearValue": {
+			"amount": 0.0, 
+			"currency": "MXN",
 		},
 		"maxValue": {
 			"amount": 0.0,
-			"currency": "MXN"
+			"currency":
+		},
+		"minValue": {
+			"amount": 0.0,
+			"currency": "MXN",
 		},
 		"originalCurrencyValue": {
 			"amount": 0.0,
 			"currency": "MXN",
-			"exchangeRate": "1"
+			"exchangeRate": "1",
 		},
-		"fiscalYearValue": {
-			"amount": 0.0,
-			"currency": "MXN"
-		}
+		"multiyear": false,
+                "numberOfMonths": "0",
+		"priceScheme": "Variables",
 	}
-}]
+]
+}
 ```
