@@ -36,8 +36,8 @@ Additional to these fields, `contractDetails` also contains the following four o
 ## Example
 
 ```json
-"Contract": {
-[
+"Contract": [
+{
 	"valueWithTax": {
 		"amount": 0.0,
 		"currency": "MXN",
@@ -65,6 +65,6 @@ Additional to these fields, `contractDetails` also contains the following four o
                 "numberOfMonths": "0",
 		"priceScheme": "Variables",
 	}
-]
 }
+]
 ```
